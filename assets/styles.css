@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* Header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vh 12vw;
+    z-index: 1;
+}
+
+.header img{
+    padding-top: 0px;
+}
+
+.header button{
+    width: 155px;
+    height: 50px;
+    background: #13183F;
+    border-radius: 28px;
+    padding: 12px 28px;
+    border-color: transparent;
+    position: absolute;
+    z-index: 9999;
+    right: 12vw;
+    color: white;
+    font-weight: 700;
+}
+
+.header button:hover{
+    cursor: pointer;
+    background: #666CA3;
+    transition: 1s;
+}
+
+/* main */
+
+.front{
+    display: flex;
+}
+
+.main-text{
+    width: 40vw;
+    margin-left: 12vw;
+    margin-top: 14vh;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 3em;
+    line-height: 71px;
+    padding-bottom: 25px;
+    color: #13183F;
+}
+
+.main-para{
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    padding-bottom: 35px;
+    padding-right: 70px;
+}
+
+.main-btn{
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 14px 23px;
+    line-height: 28px;
+    border-color: transparent;
+    border-top: transparent;
+    border-bottom: transparent;
+    color: #FFFFFF;
+}
+
+.main-btn:hover{
+    cursor: pointer;
+    transition: 1s;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+.main-img{
+    width: 55vw;
+    overflow:visible;
+    right: -130px;
+    z-index: 1;
+    top: -50px;
+    position: absolute;
+}
+
+.mobile-pic{
+    display: none;
+}
+
+.main-img img{
+    width: 740px;
+}
+
+.boxes{
+    margin-top: 20vh;
+    padding-bottom: 10vh;
+    padding: 60px 90px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 80px;
+} 
+
+ .popular{
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 15px;
+    width: 340px;
+    height: 320px;
+}
+
+.popular h2{
+    font-weight: 800;
+    font-size: 1.9em;
+    line-height: 40px;
+    color: #FFFFFF;
+    padding: 64px 32px 132px 32px;
+}
+
+.box{
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+    width: 340px;
+    padding: 52px 32px 40px 32px;
+    position: relative;
+    overflow: visible;
+    height: 320px;
+}
+
+.box-img{
+    position: absolute;
+    top: -28px;
+    left: 30px;
+    overflow: visible;
+}
+
+.box h3{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: #13183F;
+}
+
+.box p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;   
+    color: #83869A;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.box a{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F74780;
+    text-decoration: none;
+}
+
+.solo{
+    margin-bottom: 25px;
+}
+
+.box a:hover{
+    color: #FFA7C3;
+    transition: 1s;
+}
+
+/* footer */
+
+footer{
+    width: 100vw;
+    height: 100px;
+    background-color: #13183F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+}
+
+footer span{
+    font-size: 2em;
+    color: white;
+    font-weight: 700;
+}
+
+footer button{
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    border-radius: 28px;
+    border-color: transparent;
+    border-top: transparent;
+    border-bottom: transparent;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 12px 30px;
+}
+
+footer button:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    border-radius: 28px;
+    transition: 1s;
+}
